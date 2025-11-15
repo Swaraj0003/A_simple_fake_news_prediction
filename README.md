@@ -1,20 +1,45 @@
-📰 Fake News Predictor
-A simple machine learning project that predicts whether a given news article is real or fake. This project is meant for practice and learning purposes.
+Fake News Predictor 
 
-📌 Features
-Input: News headline or article text
+A fully functional Fake News Detection Web Application built using Django and Machine Learning.
+Users can input a news headline or full article text, and the system predicts whether it is Real or Fake based on a trained classification model.
 
-Output: Prediction — Real or Fake
+This project is created for learning, practice, and demonstration of integrating ML models into a Django web framework.
 
-Based on a machine learning model trained on a labeled dataset
+Features
 
-Built using Python and scikit-learn
+ Accepts user input (headline or article text)
 
-🛠️ Tech Stack
+ Machine Learning model predicts: Real or Fake
+
+ Web-based UI built with Django
+
+ ML model integrated using pickle/joblib
+
+ End-to-end flow: preprocessing → vectorization → prediction → display result
+
+ Clean and simple interface for easy usage
+
+ Tech Stack
+Backend & Web Framework
+
+Django
+
 Python
+
+Machine Learning
+
+Scikit-learn
 
 Pandas
 
 NumPy
 
-Scikit-learn
+Frontend
+
+HTML
+
+CSS
+
+
+
+ 
